@@ -1,3 +1,3 @@
-🔴The doctor summary Activity is missing from main app due to gradle issue that happen when trying to implement it..so it was created  as a separate Another App.     
+📢 The doctor summary Activity is missing from main app due to gradle issue that happen when trying to implement it..so it was created  as a separate Another App.     
 we will fixed it soon and add to main app asa a activity...
 App Repo Link:https://github.com/KeshRD/Doctor_summary_Activity_App  
