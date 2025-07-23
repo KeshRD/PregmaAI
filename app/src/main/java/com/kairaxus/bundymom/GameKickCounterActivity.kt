@@ -623,7 +623,7 @@ fun RecordsAndShopScreen(
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Column(
-                            modifier = Modifier.padding(16.dp)
+                            modifier = Modifier.padding(16.dp)//this is
                         ) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
