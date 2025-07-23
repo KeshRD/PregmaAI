@@ -1,1 +1,3 @@
-This is the Application made for Idealize 2025 competetetion by team Axiom Zphere.This is a AI,ML powered Pregnancy tracking Application.
+🔴The doctor summary Activity is missing from main app due to gradle issue that happen when trying to implement it..so it was created it as a separate Another App.     
+we will fixed it soon and add to main app asa a activity...
+Link:https://github.com/KeshRD/Doctor_summary_Activity_App  
