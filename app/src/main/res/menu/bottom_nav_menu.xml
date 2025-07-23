@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_today"
+        android:icon="@drawable/ic_today"
+        android:title="Today" />
+    <item
+        android:id="@+id/nav_discover"
+        android:icon="@drawable/ic_discover"
+        android:title="Discover" />
+    <item
+        android:id="@+id/nav_tools"
+        android:icon="@drawable/ic_tools"
+        android:title="Tools" />
+    <item
+        android:id="@+id/nav_premium"
+        android:icon="@drawable/ic_premium"
+        android:title="Premium" />
+</menu>

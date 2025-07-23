@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:shareInterpolator="false">
+
+    <!-- Falling down animation -->
+    <translate
+        android:duration="800"
+        android:fromYDelta="-100%"
+        android:toYDelta="0%"
+        android:interpolator="@android:anim/accelerate_interpolator"/>
+    <translate
+        android:duration="800"
+        android:fromYDelta="400%"
+        android:toYDelta="1000%"
+        android:interpolator="@android:anim/accelerate_interpolator"/>
+    <!-- Wobble effect -->
+    <rotate
+        android:duration="1200"
+        android:fromDegrees="-15"
+        android:toDegrees="15"
+        android:pivotX="50%"
+        android:pivotY="0%"
+        android:repeatCount="3"
+        android:repeatMode="reverse"
+        android:startOffset="200"
+        android:interpolator="@android:anim/overshoot_interpolator"/>
+
+    <!-- Bounce effect at bottom -->
+    <translate
+        android:duration="300"
+        android:fromYDelta="0%"
+        android:toYDelta="-5%"
+        android:startOffset="800"
+        android:interpolator="@android:anim/bounce_interpolator"/>
+
+    <!-- Final settle -->
+    <rotate
+        android:duration="500"
+        android:fromDegrees="5"
+        android:toDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="100%"
+        android:startOffset="1100"/>
+</set>

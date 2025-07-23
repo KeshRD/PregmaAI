@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bundy Mom</string>
+    <string name="default_web_client_id">YOUR_CLIENT_ID_FROM_GOOGLE_SERVICES_JSON</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_due_date">DueDateActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_discover">DiscoverActivity</string>
+    <string name="title_activity_tools">ToolsActivity</string>
+    <string name="title_activity_premium">PremiumActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_utils">Utils</string>
+    <string name="title_activity_kick_counter">KickCounterActivity</string>
+    <string name="title_activity_contractions">ContractionsActivity</string>
+    <string name="title_activity_appointments">AppointmentsActivity</string>
+    <string name="title_activity_add_appointment">AddAppointmentActivity</string>
+    <string name="title_activity_appointment">Appointment</string>
+    <string name="title_activity_kikcountergame">Kikcountergame</string>
+    <string name="title_activity_game_kick_counter">GameKickCounterActivity</string>
+
+</resources>

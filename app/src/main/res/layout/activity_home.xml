@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient2"
+    android:layout_height="match_parent">
+
+    <!-- Your existing layout content -->
+
+    <!-- Animation images -->
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image1"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image2"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image3"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image4"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image5"
+        android:visibility="invisible"/>
+
+    <!-- Repeat for image2 to image5 -->
+
+    <!-- Decorative elements -->
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/star"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/star"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"/>
+
+    <ImageView
+        android:id="@+id/leaf1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/leaf"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Let's Get Start"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        android:visibility="gone"/>
+
+</RelativeLayout>
