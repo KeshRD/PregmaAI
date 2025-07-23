@@ -17,6 +17,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        //val apiKey = "AIzaSyDjfxGgrb8gJcMNPVGHDvc27BIuS17nZhs"
+        buildConfigField ("String", "API_KEY", "\"AIzaSyDjfxGgrb8gJcMNPVGHDvc27BIuS17nZhs\"")
+
     }
 
     buildTypes {
@@ -38,6 +41,7 @@ android {
     buildFeatures {
         compose = true
         viewBinding =true
+        buildConfig = true
     }
 }
 

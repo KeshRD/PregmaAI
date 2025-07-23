@@ -131,10 +131,6 @@
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Constants"
-            android:exported="false"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name=".ChatViewModel"
             android:exported="false"
             android:theme="@style/AppTheme" />
